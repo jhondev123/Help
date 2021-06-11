@@ -1,7 +1,4 @@
-function popUP(){
-document.getElementById("popup").style.display='block';
-$('#popup').load("Pop-Up/personalizada.html");
-};
-function closing(){
-    document.getElementById("popup").style.display='none';
+function initPopUP(modalID) {
+    const modal = document.getElementById(modalID);
+    modal.classList.add('mostrar');
 }
